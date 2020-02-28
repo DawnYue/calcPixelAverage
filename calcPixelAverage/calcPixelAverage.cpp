@@ -35,7 +35,7 @@ int main()
 			//结束像素处理
 		} //单行处理结束
 	}
-	imshow("src", shallowMat);
+	imshow("src", shallowMat);//浅拷贝
 	//等待用户按键
 	waitKey(0);
 
