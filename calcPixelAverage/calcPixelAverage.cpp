@@ -10,6 +10,12 @@ int main()
 	CclassDemo enDemo;
 	int res = enDemo.maxVal(100, 99);
 	cv::Mat srcMat = imread("E:\\2.png");
+
+	cv::Mat deepMat;
+	cv::Mat shallowMat;
+
+	shallowMat = srcMat;
+	srcMat.copyTo(deepMat);
 	int height = srcMat.rows; //行数
 	int width = srcMat.cols; //每行元素的总元素数量
 	uchar threshold = 100;
@@ -31,7 +37,11 @@ int main()
 			//结束像素处理
 		} //单行处理结束
 	}
-	imshow("src", srcMat);
+	imshow("src", shallowMat);
+	//等待用户按键
+	waitKey(0);
+
+	imshow("src", deepMat);
 	//等待用户按键
 	waitKey(0);
 	return 0;
