@@ -39,7 +39,7 @@ int main()
 	//等待用户按键
 	waitKey(0);
 
-	imshow("src", deepMat);
+	imshow("src", deepMat);//深拷贝
 	//等待用户按键
 	waitKey(0);
 	return 0;
