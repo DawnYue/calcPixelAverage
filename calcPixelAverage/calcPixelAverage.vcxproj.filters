@@ -18,5 +18,13 @@
     <ClCompile Include="calcPixelAverage.cpp">
       <Filter>源文件</Filter>
     </ClCompile>
+    <ClCompile Include="CclassDemo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="CclassDemo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
