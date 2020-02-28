@@ -10,7 +10,6 @@ int main()
 	CclassDemo enDemo;
 	int res = enDemo.maxVal(100, 99);
 	cv::Mat srcMat = imread("E:\\2.png");
-
 	cv::Mat deepMat;
 	cv::Mat shallowMat;
 
