@@ -1,5 +1,6 @@
  第一周（实际第二周）  opencv简单实践1：遍历操作、读取图片、二值化、拷贝操作
  
+ https://www.bilibili.com/video/BV1SE411c7M4/
  
 imread0分支是练习2；threshold分支是练习3（那么主干为练习1）代码都在calcPixelAverage.cpp里
 
